@@ -1,0 +1,16 @@
+import pyttsx3
+engine = pyttsx3.init()
+engine.say('''Hi, I'm Shivani Sharma!,
+
+    I'm an MCA student at amity university ,
+          i passionate about Data Science and AI. Currently,
+          I’m exploring Python, Pandas, NumPy, and Data Visualization,
+          while building projects around machine learning and big data.
+          I’m particularly interested in recommendation systems, 
+          and AI-based applications like face recognition,
+          I love solving real-world problems with data and aim to contribute to impactful projects,
+          Check out my repositories for my work, and let’s connect and collaborate!
+
+''')
+
+engine.runAndWait()
